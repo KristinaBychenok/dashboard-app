@@ -1,0 +1,67 @@
+.userForm_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  border-bottom: 1px solid grey;
+}
+
+.userForm_inputs {
+  margin: 20px 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.userForm_inputs label {
+  margin-bottom: 5px;
+}
+
+.userForm_inputs input {
+  height: 25px;
+  border: 1px solid rgb(194, 192, 192);
+  margin-bottom: 20px;
+}
+
+.userForm_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.userForm_buttons button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.25rem 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.cancle {
+  background-color: white;
+  border: 1px solid #ee753d;
+  color: #ee753d;
+}
+
+.cancle:hover,
+.cancle:active {
+  background-color: #eec3af;
+}
+
+.submit {
+  background-color: #4fa798;
+  border: 1px solid #4fa798;
+  color: white;
+}
+
+.submit:hover,
+.submit:active {
+  background-color: #397c71;
+  border-color: #397c71;
+}
+
+.error {
+  color: red;
+  margin: -10px 0 10px;
+}

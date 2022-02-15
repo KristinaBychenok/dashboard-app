@@ -1,0 +1,58 @@
+.deleteForm_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  border-bottom: 1px solid grey;
+}
+
+.deleteForm_message {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.deleteForm_message p {
+  font-size: larger;
+  color: #4b2323;
+}
+
+.deleteForm_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.deleteForm_buttons button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.25rem 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.cancle {
+  background-color: #b1a6a1;
+  border: 1px solid #b1a6a1;
+  color: white;
+}
+
+.cancle:hover,
+.cancle:active {
+  background-color: #746d6b;
+}
+
+.delete {
+  background-color: #a74f4f;
+  border: 1px solid #a74f4f;
+  color: white;
+}
+
+.delete:hover,
+.delete:active {
+  background-color: #773838;
+  border-color: #773838;
+}

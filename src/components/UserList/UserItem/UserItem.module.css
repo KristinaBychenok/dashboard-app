@@ -1,0 +1,51 @@
+.wraper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid rgb(194, 192, 192);
+}
+
+.wraper:hover {
+  background-color: rgb(241, 238, 238);
+}
+
+.wraper:last-child {
+  border-bottom: none;
+}
+
+.wraper td {
+  width: 12.5%;
+  text-align: center;
+}
+
+.wraper button {
+  font: inherit;
+  cursor: pointer;
+  color: white;
+  padding: 0.1rem 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.edit_button {
+  background-color: #ecdc7e;
+  border: 1px solid #ecdc7e;
+}
+
+.delete_button {
+  background-color: #ec987e;
+  border: 1px solid #ec987e;
+}
+
+.edit_button:hover,
+.edit_button:active {
+  background-color: #cfc16e;
+  border-color: #cfc16e;
+}
+
+.delete_button:hover,
+.delete_button:active {
+  background-color: #cf896e;
+  border-color: #cf896e;
+}
